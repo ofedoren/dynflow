@@ -7,7 +7,7 @@ module Dynflow
     # the {Dynflow::Action}'s #plan method when the plan is executed.
     class Abstract
 
-      attr_reader :args, :serialized_args, :serialized_kwargs
+      attr_reader :args, :kwargs, :serialized_args, :serialized_kwargs
 
       # @param args [Array] arguments to be serialized
       # @param serialized_args [nil, Array] arguments in their serialized form
